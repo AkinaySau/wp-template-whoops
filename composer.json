@@ -1,0 +1,22 @@
+{
+  "name": "sau/wp_template_whoops",
+  "description": "Extend template for using Whoops",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AkinaySau",
+      "email": "akinaysau@gmail.com",
+      "homepage": "http://a-sau.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "filp/whoops": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sau\\WP\\Theme\\Whoops\\": "src/"
+    }
+  }
+}
